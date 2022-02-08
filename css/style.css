@@ -12,15 +12,14 @@ h1{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 nav li {
-    padding:12 px;
+    padding: 12px;
     background-color: lightblue;
 	width:25%;
 	border:1px dashed slategray;
 	display: inline-block;
 	width: 20%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
-}
+    }
 
 nav li a{
     text-decoration: none;
@@ -55,47 +54,16 @@ img:hover{
 
 a:visited{color:#0000FF}
 
-header, nav, main, h1, footer{
+/* header, nav, main, h1, footer{
 	border: 2px solid grey;
 	margin: 10px 0;
-}
+} */
 
+main, h1, footer{
+	border: 1px solid darkolivegreen;
+	margin: 10px 0;
+}
 p, h1, h2 {
     padding: 10px;
     font-family: Tahoma, Geneva, Verdana, sans-serif;
 }
-
-/* contact form */
-input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid gray;
-    border-radius: 2px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical
-  }
-  
-  /* Submit button on contact form */
-  input[type=submit] {
-    background-color:lightgreen;
-    color: black;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  /* When moving the mouse over the submit button, add a darker green color */
-  input[type=submit]:hover {
-    background-color: #45a049;
-    color: white;
-  }
-  
-  /* contact form- background color*/
-  .container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-  }
